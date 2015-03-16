@@ -13,18 +13,18 @@
 
 ### Legend
 
-> active => passive
+> `active => passive`
 
-> any <- reactive
+> `any <- reactive`
 
 #### Flux
-  Component => Action => Dispatcher <- Store <- Component
+`Component => Action => Dispatcher <- Store <- Component`
 
 #### Reflux
-  Component => Action <- Store <- Component
+`Component => Action <- Store <- Component`
 
 #### Baobab
-  Component => Action => State <- Component
+`Component => Action => State <- Component`
 
 #### Cycle
-  Model <- View <- Intent <- Model
+`Model <- View <- Intent <- Model`
