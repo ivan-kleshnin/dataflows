@@ -13,9 +13,9 @@
 
 ### Legend
 
-> `=>` active
+> active => passive
 
-> `<-` reactive
+> any <- reactive
 
 #### Flux
   Component => Action => Dispatcher <- Store <- Component
