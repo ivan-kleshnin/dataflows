@@ -11,8 +11,6 @@
 
 ## Data flows
 
-### Legend
-
 > `active => passive`
 
 > `any <- reactive`
