@@ -33,4 +33,4 @@
 `Component => Action => State <- Component`
 
 #### Cycle
-`Model <- View <- Intent <- Model`
+`Model <- View <- DOM <- Intent <- Model`
