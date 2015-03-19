@@ -1,4 +1,4 @@
-# Overview of frontend architectures
+# Frontend architectures overview
 
 ## Architecture
 <table>
