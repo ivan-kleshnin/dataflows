@@ -15,6 +15,14 @@
 
 > `any <- reactive`
 
+#### jQuery (old school)
+
+`DOM <- EventHandler => DOM`
+
+#### Backbone
+
+`DOM <- View => Model <- View => DOM`
+
 #### Flux
 `Component => Action => Dispatcher <- Store <- Component`
 
