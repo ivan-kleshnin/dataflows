@@ -1,3 +1,5 @@
+# Overview of frontend architectures
+
 ## Architecture
 <table>
   <tr><th>Flux</th><th>Cycle</th></tr>
@@ -6,8 +8,6 @@
   <tr><td>[magic]</td><td>DOM User</td></tr>  
   <tr><td>Action</td><td>Intent</td></tr>  
 </table>
-
-* In CycleJS there can be more nodes.
 
 ## Data flows
 
