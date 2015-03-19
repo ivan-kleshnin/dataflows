@@ -5,7 +5,6 @@
   <tr><th>Backbone</th><th>Flux</th><th>Cycle</th></tr>
   <tr><td>Model</td><td>Store</td><td>Model</td></tr>
   <tr><td>View</td><td>Component</td><td>View</td></tr>
-  <tr><td>Real DOM</td><td>[magic]</td><td>DOM User</td></tr>  
   <tr><td>Event handler</td><td>Action</td><td>Intent</td></tr>  
 </table>
 
