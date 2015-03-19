@@ -2,10 +2,10 @@
 
 ## Similarity table
 <table>
-  <tr><th>Backbone</th><th>Flux</th><th>Cycle</th></tr>
-  <tr><td>Model</td><td>Store</td><td>Model</td></tr>
-  <tr><td>View</td><td>Component</td><td>View</td></tr>
-  <tr><td>Event handler</td><td>Action</td><td>Intent</td></tr>  
+  <tr><th>jQuery</th><th>Backbone</th><th>React</th><th>React Flux</th><th>Cycle</th></tr>
+  <tr><td>–</td><td>Model</td><td>Component: state</td><td>Store</td><td>Model</td></tr>
+  <tr><td>–</td><td>View</td><td>Component: render</td><td>Component</td><td>View</td></tr>
+  <tr><td>Event handler</td><td>Event handler</td><td>Component: event handler</td><td>Action</td><td>Intent</td></tr>  
 </table>
 
 ## Data flows
