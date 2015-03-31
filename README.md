@@ -45,7 +45,7 @@
 
 `DOM <- EventHandler => DOM`
 
-#### Backbone
+#### Backbone / Ampersand
 
 `DOM <- View => Model <- View => DOM`
 
@@ -59,4 +59,4 @@
 `Component => Action => State <- Component`
 
 #### Cycle
-`Model <- View <- DOM <- Intent <- Model`
+`Model <- View <- DOMUser <- Intent <- Model`
