@@ -1,4 +1,4 @@
-# Frontend architectures overview
+# Web app architectures. Overview
 
 ## Similarity table
 <table>
