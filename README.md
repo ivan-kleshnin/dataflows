@@ -49,7 +49,7 @@
 
 `DOM <- View => Model <- View => DOM`
 
-#### Flux
+#### Flux / Flummox / ...
 `Component => Action => Dispatcher <- Store <- Component`
 
 #### Reflux
