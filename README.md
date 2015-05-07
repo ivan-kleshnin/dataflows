@@ -59,4 +59,4 @@
 `Component => Action => State <- Facets <- Component`
 
 #### Cycle
-`User <- Computer <- VDOM <- User
+`User <- Computer <- VDOM <- User`
