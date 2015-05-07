@@ -55,8 +55,8 @@
 #### Reflux
 `Component => Action <- Store <- Component`
 
-#### Baobab
-`Component => Action => State <- Component`
+#### Baobab 
+`Component => Action => State <- Facets <- Component`
 
 #### Cycle
 `Model <- View <- DOMUser <- Intent <- Model`
