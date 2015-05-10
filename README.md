@@ -50,10 +50,10 @@
 `DOM <- View => Model <- View => DOM`
 
 #### Flux / Flummox / ...
-`Component => Action => Dispatcher <- Store <- Component`
+`Component => Action => Dispatcher <- Store <- Store (aggregate) <- Component`
 
 #### Reflux
-`Component => Action <- Store <- Component`
+`Component => Action <- Store <- Store (aggregate) <- Component`
 
 #### Baobab 
 `Component => Action => State <- Facets <- Component`
