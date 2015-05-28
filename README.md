@@ -5,13 +5,16 @@
   <tr>
     <th>jQuery</th>
     <th>Backbone</th>
+    <th>Knockout</th>
     <th>React</th>
     <th>React Flux</th>
     <th>Baobab</th>
     <th>Cycle</th>
   </tr>
   <tr>
-    <td>–</td><td>Model</td>
+    <td>–</td>
+    <td>Model</td>
+    <td>ViewModel (Observables)</td>
     <td>Component: state</td>
     <td>Store</td>
     <td>State</td>
@@ -20,6 +23,7 @@
   <tr>
     <td>–</td>
     <td>View</td>
+    <td>View (HTML with data-bind attrs)</td>
     <td>Component: render</td>
     <td>Component</td>
     <td>Component</td>
@@ -28,6 +32,7 @@
   <tr>
     <td>Event handler</td>
     <td>Event handler</td>
+    <td>Event Handler (declaratively attached)</td>
     <td>Component: event handler</td>
     <td>Action</td>
     <td>Action</td>
