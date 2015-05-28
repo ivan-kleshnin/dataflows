@@ -38,17 +38,23 @@ Virtual DOM
 
 #### React
 
-`Component <- Component (handler) => Component (state)`
+`Component (VDOM) <- Component (handler) => Component (state) <- Component (VDOM)`
 
 #### Flux / Flummox / ...
+
+Including **React** scheme...
 
 `Component <- Action => Dispatcher <- Store <- Store (aggregate) <- Component`
 
 #### Reflux
 
+Including **React** scheme...
+
 `Component <- Action <- Store <- Store (aggregate) <- Component`
 
 #### Baobab 
+
+Including **React** scheme...
 
 `Component <- Action => State <- Facets <- Component`
 
