@@ -66,4 +66,4 @@ Basic
 
 Advanced
 
-`[DOM <-] Intent <- Model <- View [<- VDOM => DOM]`
+`[DOM <-] Intent <- Model <- View (VDOM) [=> DOM]`
