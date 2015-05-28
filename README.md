@@ -26,7 +26,7 @@ Automatic DOM mutations
 
 With Model
 
-`DOM <- View (handlers) => ViewModel <- Model <- View (bindings) => DOM`
+`DOM <- View (handlers) => ViewModel <- Model <- ViewModel <- View (bindings) => DOM`
 
 #### Angular
 
