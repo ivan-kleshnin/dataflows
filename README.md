@@ -34,7 +34,7 @@ TODO
 
 ## Generation Three
 
-VirtualDOM
+Virtual DOM
 
 #### React
 
