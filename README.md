@@ -42,19 +42,17 @@ Virtual DOM
 
 #### Flux / Flummox / ...
 
-Including **React** scheme... 
-
-`agg.` means `aggregate`
-
 `[DOM <-] Component (handler) => Action => Dispatcher <- Store <- Store (agg.) <- Component (VDOM) [=> DOM]`
+
+Also includes **React** scheme.
+`agg.` means `aggregate`
 
 #### Reflux
 
-Including **React** scheme...
-
-`agg.` means `aggregate`
-
 `[DOM <-] Component (handler) => Action <- Store <- Store (agg.) <- Component (VDOM) [=> DOM]`
+
+Also includes **React** scheme.
+`agg.` means `aggregate`
 
 #### Baobab 
 
