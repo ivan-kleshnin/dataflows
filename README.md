@@ -22,11 +22,11 @@ Automatic DOM mutations
 
 #### Knockout
 
-`DOM <- View (handlers) => ViewModel <- View (bindings) => DOM`
+`[DOM <-] View (handlers) => ViewModel <- View (bindings) [=> DOM]`
 
 With Model
 
-`DOM <- View (handlers) => ViewModel <- Model <- ViewModel <- View (bindings) => DOM`
+`[DOM <-] View (handlers) => ViewModel <- Model <- ViewModel <- View (bindings) [=> DOM]`
 
 #### Angular
 
@@ -38,32 +38,32 @@ Virtual DOM
 
 #### React
 
-`Component (VDOM) <- Component (handler) => Component (state) <- Component (VDOM)`
+`[DOM <-] Component (handler) => Component (state) <- Component (VDOM) [=> DOM]`
 
 #### Flux / Flummox / ...
 
 Including **React** scheme...
 
-`Component <- Action => Dispatcher <- Store <- Store (aggregate) <- Component`
+`[DOM <-] Component (handler) => Action => Dispatcher <- Store <- Store (aggregate) <- Component (VDOM) [=> DOM]`
 
 #### Reflux
 
 Including **React** scheme...
 
-`Component <- Action <- Store <- Store (aggregate) <- Component`
+`[DOM <-] Component (handler) => Action <- Store <- Store (aggregate) <- Component (VDOM) [=> DOM]`
 
 #### Baobab 
 
 Including **React** scheme...
 
-`Component <- Action => State <- Facets <- Component`
+`[DOM <-] Component (handler) => Action => State <- Facets <- Component (VDOM) [=> DOM]`
 
 #### Cycle
 
 Basic
 
-`User <- Computer <- User`
+`[DOM <-] Computer (VDOM) [=> DOM]`
 
 Advanced
 
-`View <- Intent <- Model <- View`
+`[DOM <-] Intent <- Model <- View [<- VDOM => DOM]`
