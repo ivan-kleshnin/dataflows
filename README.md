@@ -4,7 +4,7 @@
 
 > `any <- reactive`
 
-### Generation One
+## Generation One
 
 Manual DOM mutations
 
@@ -16,7 +16,7 @@ Manual DOM mutations
 
 `DOM <- View => Model <- View => DOM`
 
-### Generation Two
+## Generation Two
 
 Automatic DOM mutations
 
@@ -29,7 +29,7 @@ Automatic DOM mutations
 #### Angular
 TODO
 
-### Generation Three
+## Generation Three
 
 VirtualDOM
 
