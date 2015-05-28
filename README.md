@@ -1,4 +1,4 @@
-# Data flows of different web app architectures
+# Dataflows of web app architectures
 
 > `active => passive`
 
