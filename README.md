@@ -45,6 +45,7 @@ Virtual DOM
 `[DOM <-] Component (handler) => Action => Dispatcher <- Store <- Store (agg.) <- Component (VDOM) [=> DOM]`
 
 Also includes **React** scheme.
+
 `agg.` means `aggregate`
 
 #### Reflux
@@ -52,6 +53,7 @@ Also includes **React** scheme.
 `[DOM <-] Component (handler) => Action <- Store <- Store (agg.) <- Component (VDOM) [=> DOM]`
 
 Also includes **React** scheme.
+
 `agg.` means `aggregate`
 
 #### Baobab 
