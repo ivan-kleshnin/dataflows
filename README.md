@@ -55,7 +55,7 @@
 `DOM <- View => Model <- View => DOM`
 
 #### Knockout
-`DOM Events <- View (Event Handlers) => ViewModel (Observables) <- View (Bindings) => DOM Mutations`
+`DOM <- View (handlers) => ViewModel <- View (bindings) => DOM`
 
 #### Flux / Flummox / ...
 `Component => Action => Dispatcher <- Store <- Store (aggregate) <- Component`
