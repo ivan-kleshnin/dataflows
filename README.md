@@ -49,6 +49,9 @@
 
 `DOM <- View => Model <- View => DOM`
 
+#### Knockout
+`DOM Events <- View (Event Handlers) => ViewModel (Observables) <- View (Bindings) => DOM Mutations`
+
 #### Flux / Flummox / ...
 `Component => Action => Dispatcher <- Store <- Store (aggregate) <- Component`
 
