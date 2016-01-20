@@ -2,7 +2,13 @@
 
 > `active => passive`
 
-> `any <- reactive`
+> `emitter <- reactive`
+
+Time flows from left to right.<br/>
+Arrows point from dependent to dependency.
+
+Active "thing" requires passive "thing" and invokes it's behavior.<br/>
+Reactive "thing" requires emitter "thing" and subscribes to it's behavior.
 
 ## Generation One
 
