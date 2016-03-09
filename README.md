@@ -77,3 +77,7 @@ Basic
 Advanced
 
 `[DOM <-] Intent <- Model <- View (VDOM) [=> DOM]`
+
+## Links
+
+[reactive-polyglot](https://github.com/ivan-kleshnin/reactive-polyglot) – comparison of reactive APIs
