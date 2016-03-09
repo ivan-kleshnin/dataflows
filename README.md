@@ -80,4 +80,4 @@ Advanced
 
 ## Links
 
-[reactive-polyglot](https://github.com/ivan-kleshnin/reactive-polyglot) – comparison of reactive APIs
+[reactive-polyglot](https://github.com/ivan-kleshnin/reactive-polyglot) – FRP libraries / langs compared
